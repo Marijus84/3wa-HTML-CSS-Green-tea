@@ -1,0 +1,333 @@
+*{
+  box-sizing: border-box;
+}*
+
+body {
+  /*font-family: 'Amaranth', sans-serif;*/
+  font-family: 'Open Sans', sans-serif;
+  background-color: #F2F2F2;
+  text-align: center;
+}
+
+header {
+  background-image: url("../img/bg.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: #96B011;
+  color:rgba(255, 255, 255, 0.8);
+
+}
+
+footer {
+  background-image: url("../img/bg.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-position: bottom;
+  background-color: #96B011;
+  color: white;
+}
+
+.foot-menu{
+  background: rgba(0, 0, 0, 0.1);
+  margin: 0 auto;
+}
+
+.basket {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.intro {
+  background: rgba(0, 0, 0, 0.1);
+  margin: 0 auto;
+  padding: 10px;
+}
+
+.container {
+  max-width: 80%;
+  margin: 0 auto;
+}
+
+.fa-shopping-cart {
+  opacity: 0.5;
+}
+
+.logo {
+  padding-top: 30px;
+}
+
+.price {
+  width: 150px;
+}
+
+.basket {
+  padding-top: 30px;
+  width: 100px;
+}
+
+
+
+nav ul {
+  display: flex;
+  justify-content: space-between;
+  text-transform: uppercase;
+  list-style-type: none;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+nav a {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.sort-text {
+  font-family: 'Amaranth', sans-serif;
+  text-transform: uppercase;
+  color:#666666;}
+
+.teasorts h3 {
+  font-family: 'Amaranth', sans-serif;
+  text-align: left;
+  color: #666666;
+  margin-top: 0;
+}
+
+.logo img {
+  width: 100%;
+}
+
+.cont-img img {
+  width: 100%;
+}
+
+.sort img {
+  width: 100%;
+}
+
+.teasorts {
+  background-color: white;
+  padding: 20px;
+
+}
+
+
+
+
+
+
+
+.teasorts:hover .sort {
+  opacity: 0.6;
+}
+
+.teasorts .sort:hover {
+  opacity: 1;
+}
+
+.img-main {
+  padding: 10px;
+  position: relative;
+}
+
+.cont-img {
+  background-color: white;
+  margin-bottom: 20px;
+}
+
+.card {
+  background-color: white;
+}
+
+.card-3 {
+  margin: 0 auto;
+}
+
+.card-heading1 {
+  background-color: #E26A6A;
+  text-align: left;
+  padding: 5px;
+  color: white;
+  font-family: 'Amaranth', sans-serif;
+  min-height: 40px;
+  padding-left: 10px;
+}
+
+.card-heading2 {
+  background-color: #F4B350;
+  text-align: left;
+  color: white;
+  padding: 5px;
+  font-family: 'Amaranth', sans-serif;
+  min-height: 40px;
+  padding-left: 10px;
+}
+
+.card-heading3 {
+  background-color: #4ECDC4;
+  text-align: left;
+  color: white;
+  padding: 5px;
+  font-family: 'Amaranth', sans-serif;
+  min-height: 40px;
+  padding-left: 10px;
+}
+
+
+
+.card-img {
+  padding: 1.5em;
+  max-width: 100%;
+}
+
+.text-over {
+  position: absolute;
+  margin-top: 25px;
+  margin-left: 10px;
+  z-index: 2;
+  background-color:rgba(150, 176, 15, 0.7);
+  color: white;
+  width: 400px;
+  text-align: left;
+}
+
+.htext-over {
+  font-family: 'Amaranth', sans-serif;
+  padding-top: 15px;
+  padding-left: 15px;
+  font-weight: lighter;
+
+
+}
+
+.ptext-over {
+  padding-bottom: 15px;
+  padding-left: 15px;
+  font-size: 0.8em;
+  opacity: 0.9;
+
+}
+
+
+
+.section ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.card {
+  width: 30%;
+}
+
+.section a {
+    text-decoration: none;
+    color: white;
+}
+.card-h4 {
+  color: #666666;
+  font-weight: lighter;
+  font-family: 'Amaranth', sans-serif;
+}
+
+.card-p {
+  font-size: 0.8em;
+  color: #989898;
+}
+
+
+.foot-menu {
+  opacity:0.7;
+}
+
+.section ul li {
+  opacity: 0.7;
+}
+
+.card-3 img {
+  padding-top: 5px;
+}
+
+.foot-heading {
+  text-transform: uppercase;
+}
+
+
+@media only screen and (max-width: 590px)
+{
+  .tosides {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .teasortsin {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .sort img {
+    width: 47%;
+  }
+
+  .card
+  {
+    width: 100%;
+    margin-top: 60px;
+    margin-bottom: 60px;
+
+  }
+
+  .card-cont{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .foot-menu ul {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .foot-menu ul li {
+    margin:15px;
+  }
+
+  .section li {
+    margin: 25px;
+  }
+
+  .page-map {
+    display: flex;
+    flex-direction: column;
+  }
+
+}
+
+@media only screen and (min-width: 590px)
+{
+  .tosides {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .teasortsin {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .card-cont{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .foot-menu ul {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .page-map {
+    display: flex;
+    justify-content: space-around;
+  }
+
+}
